@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ReflashWindow</class>
+ <widget class="QMainWindow" name="ReflashWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>392</width>
+    <height>280</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PMFlashWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>8</y>
+      <width>185</width>
+      <height>89</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Hex file</string>
+    </property>
+    <widget class="QPushButton" name="btnReflash">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>32</y>
+       <width>169</width>
+       <height>49</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Reflash</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_2">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>8</y>
+      <width>185</width>
+      <height>89</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Status</string>
+    </property>
+    <widget class="QProgressBar" name="progStatus">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>56</y>
+       <width>169</width>
+       <height>23</height>
+      </rect>
+     </property>
+     <property name="value">
+      <number>0</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="labStatus">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>32</y>
+       <width>67</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>Idle</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>104</y>
+      <width>377</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Hardware Information</string>
+    </property>
+    <widget class="QLabel" name="labHardwareInformation">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>24</y>
+       <width>361</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="groupBox_4">
+    <property name="geometry">
+     <rect>
+      <x>8</x>
+      <y>192</y>
+      <width>377</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Recommended</string>
+    </property>
+    <widget class="QLabel" name="labRecommended">
+     <property name="geometry">
+      <rect>
+       <x>8</x>
+       <y>24</y>
+       <width>361</width>
+       <height>17</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>TextLabel</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
